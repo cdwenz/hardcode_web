@@ -12,8 +12,8 @@ const LAST_UPDATED = "October 7, 2025";
 
 export default function PrivacyPolicyPage() {
   return (
-    <main className="mx-auto max-w-3xl px-6 py-12 prose prose-invert prose-headings:mt-8 prose-a:underline-offset-4">
-      <h1>Privacy Policy</h1>
+    <main className="mx-auto max-w-3xl px-6 py-12 prose prose-invert prose-headings:mt-8 prose-a:underline-offset-4 gap-6 flex flex-col">
+      <h1 className="text-5xl m-6">Privacy Policy</h1>
       <p><strong>Last updated:</strong> {LAST_UPDATED}</p>
 
       <p>
