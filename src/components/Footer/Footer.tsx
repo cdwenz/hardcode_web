@@ -7,7 +7,7 @@ export default function Footer() {
         {/* Logo */}
         <div className="flex justify-center">
           <img
-            src="/logo.svg"
+            src="/HardCode_logo_white.png"
             alt="HardCode Technologies"
             className="h-10 opacity-90"
           />
